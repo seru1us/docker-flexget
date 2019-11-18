@@ -1,3 +1,11 @@
+# Changes I've made to this repo:
+
+Essentially, just note how there is a new script I've added, "cdbcheck.bash". What it does is check a calibre library to see if there is an existing book in a claibre library before downloading it in FlexGet. It currently has a hard coded IP (lazy) and only checks by ebook title, so this needs a lot of work to get working in a different environment and should probably be reworked for public consumption. 
+
+
+
+
+
 # docker-flexget
 
 Docker image for running [flexget](http://flexget.com/)
