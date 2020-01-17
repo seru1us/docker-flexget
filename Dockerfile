@@ -6,6 +6,7 @@ ARG LIBTORRENT_VER=libtorrent-1_1_13
 
 RUN \
 	echo "**** install frolvlad/alpine-python3 ****" && \
+	apk add --no-cache bash && \
 	apk add --no-cache python3 && \
 	python3 -m ensurepip && \
 	rm -r /usr/lib/python*/ensurepip && \
